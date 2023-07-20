@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<VBox xmlns="http://javafx.com/javafx/20.0.1"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.tinhchisobmi.Main"
+      prefHeight="400.0" prefWidth="600.0" >
+    <HBox alignment="TOP_CENTER">
+        <Label text="Nhap can nang:" />
+        <TextField fx:id="kg" />
+        <Label text="Kg" />
+    </HBox>
+    <HBox alignment="TOP_CENTER">
+        <Label text="Nhap chieu cao:" />
+        <TextField fx:id="m" />
+        <Label text="m" />
+    </HBox>
+    <HBox alignment="TOP_CENTER">
+        <Button text="Ok" onAction="#action" />
+    </HBox>
+</VBox>

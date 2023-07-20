@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+<VBox fx:controller="com.example.xaydungtinhnangdangnhap.Main"
+      xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/20.0.1" >
+    <HBox alignment="CENTER">
+        <Label text="Username:" />
+        <TextField fx:id="user" />
+    </HBox>
+    <HBox alignment="CENTER">
+        <Label text="Password:" />
+        <TextField fx:id="pass" />
+    </HBox>
+    <HBox alignment="CENTER">
+        <Button onAction="#action" text="Login"></Button>
+    </HBox>
+</VBox>

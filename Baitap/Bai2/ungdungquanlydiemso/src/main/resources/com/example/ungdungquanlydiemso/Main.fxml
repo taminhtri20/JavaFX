@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.ungdungquanlydiemso.HelloController"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <TableView fx:id="tableView" layoutX="60" layoutY="17" prefHeight="270" onMouseClicked="#rowclicked">
+            <columns>
+                <TableColumn prefWidth="75" text="Id" fx:id="id"/>
+                <TableColumn prefWidth="75" text="Name" fx:id="name"/>
+                <TableColumn prefWidth="75" text="Class" fx:id="clasS"/>
+                <TableColumn prefWidth="75" text="Gender" fx:id="gender"/>
+                <TableColumn prefWidth="75" text="Address" fx:id="address"/>
+                <TableColumn prefWidth="75" text="Score" fx:id="score"/>
+            </columns>
+        </TableView>
+
+        <HBox layoutX="550" layoutY="20">
+            <Label text="ID: "/>
+        </HBox>
+        <HBox layoutX="610" layoutY="17">
+            <TextField fx:id="idtf"/>
+        </HBox>
+        <HBox layoutX="550" layoutY="60">
+            <Label text="Name: "/>
+        </HBox>
+        <HBox layoutX="610" layoutY="57">
+            <TextField fx:id="nametf"/>
+        </HBox>
+        <HBox layoutX="550" layoutY="100">
+            <Label text="Class: "/>
+        </HBox>
+        <HBox layoutX="610" layoutY="97">
+            <TextField fx:id="classtf" />
+        </HBox>
+        <HBox layoutX="550" layoutY="140">
+            <Label text="Gender: "/>
+        </HBox>
+        <HBox layoutX="640" layoutY="137">
+            <RadioButton text="Nam">
+                <toggleGroup>
+                    <ToggleGroup fx:id="toogle" />
+                </toggleGroup>
+            </RadioButton>
+            <RadioButton text="Nu" toggleGroup="$toogle" />
+        </HBox>
+        <HBox layoutX="550" layoutY="180">
+            <Label text="Address: "/>
+        </HBox>
+        <HBox layoutX="610" layoutY="177">
+            <TextField fx:id="addresstf" />
+        </HBox>
+        <HBox layoutX="550" layoutY="220">
+            <Label text="Score: "/>
+        </HBox>
+        <HBox layoutX="610" layoutY="217">
+            <TextField fx:id="scoretf" />
+        </HBox>
+        <HBox layoutX="550" layoutY="260">
+            <Button text="Add" onAction="#add"/>
+        </HBox>
+        <HBox layoutX="620" layoutY="260">
+            <Button text="Remove" onAction="#remove"/>
+        </HBox>
+        <HBox layoutX="715" layoutY="260">
+            <Button text="Update" onAction="#update"/>
+        </HBox>
+    </children>
+</AnchorPane>

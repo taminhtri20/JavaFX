@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bai4.iml" filepath="$PROJECT_DIR$/Bai4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inetaddress/inetaddress.iml" filepath="$PROJECT_DIR$/inetaddress/inetaddress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sudungtcp/sudungtcp.iml" filepath="$PROJECT_DIR$/sudungtcp/sudungtcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sudungurl/sudungurl.iml" filepath="$PROJECT_DIR$/sudungurl/sudungurl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sudungurlconnection/sudungurlconnection.iml" filepath="$PROJECT_DIR$/sudungurlconnection/sudungurlconnection.iml" />
+    </modules>
+  </component>
+</project>
